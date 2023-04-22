@@ -2,7 +2,7 @@
 
 CommitAssist is a command-line interface (CLI) tool designed to streamline the process of creating commit messages based on your diffs.
 
-![Preview](preview.gif)
+![Preview](https://raw.githubusercontent.com/dejorrit/commit-assist/main/preview.gif)
 
 ## Installation
 
