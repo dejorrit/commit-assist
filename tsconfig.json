@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "./dist/",
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src"]
+}
