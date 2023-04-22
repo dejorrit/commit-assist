@@ -1,5 +1,7 @@
 # CommitAssist
 
+[![NPM](https://img.shields.io/npm/v/commit-assist.svg)](https://www.npmjs.com/package/commit-assist)
+
 Auto generate commit messages using ChatGPT
 
 ![Preview](https://raw.githubusercontent.com/dejorrit/commit-assist/main/preview.gif)
@@ -8,14 +10,19 @@ Auto generate commit messages using ChatGPT
 
 To install CommitAssist, simply run the following command:
 
-`yarn global add commit-assist`
+```bash
+yarn global add commit-assist
+```
 
 ## Usage
 
 To generate commit messages using CommitAssist, follow these simple steps:
 
-Stage the files you want to commit.
-Run `git-ca` from the command line.
+Stage the files you want to commit. Then run:
+
+```bash
+git-ca
+```
 
 The first time you run the tool, it will prompt you for your OpenAI API key. If you don't have one, you can get yours by visiting the [OpenAI API Keys](https://platform.openai.com/account/api-keys) page.
 
@@ -23,7 +30,9 @@ The first time you run the tool, it will prompt you for your OpenAI API key. If 
 
 If you need to reset your API Key for any reason, simply run the following command:
 
-`git-ca reset`
+```bash
+git-ca reset
+```
 
 ## Important Information
 
