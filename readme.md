@@ -1,6 +1,6 @@
 # CommitAssist
 
-CommitAssist is a command-line interface (CLI) tool designed to streamline the process of creating commit messages based on your diffs.
+Auto generate commit messages using ChatGPT
 
 ![Preview](https://raw.githubusercontent.com/dejorrit/commit-assist/main/preview.gif)
 
