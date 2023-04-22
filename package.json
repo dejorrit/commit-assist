@@ -1,11 +1,11 @@
 {
   "name": "commit-assist",
-  "version": "1.0.11",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "commit-assist": "./dist/index.js"
+    "git-ca": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",

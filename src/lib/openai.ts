@@ -12,9 +12,9 @@ async function getKey(): Promise<string> {
   }
 
   const { key } = await prompt<{ key: string }>({
-    type: "input",
+    type: "password",
     name: "key",
-    message: "Please enter your ChatGPT API Key",
+    message: "Please enter your OpenAI API Key",
   });
 
   if (!key) {
