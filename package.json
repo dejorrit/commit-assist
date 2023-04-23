@@ -1,5 +1,15 @@
 {
   "name": "commit-assist",
+  "description": "Auto generate commit messages using ChatGPT",
+  "keywords": [
+    "git",
+    "commit",
+    "chatgpt",
+    "ai",
+    "cli"
+  ],
+  "author": "dejorrit",
+  "repository": "dejorrit/commit-assist",
   "version": "1.0.2",
   "main": "dist/index.js",
   "license": "MIT",
